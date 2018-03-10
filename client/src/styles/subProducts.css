@@ -1,7 +1,26 @@
 /*=========Sub Products Styles=========*/
 
+.sub-products {
+  /*background-color: #FAFAFA;*/
+  /*margin: -40px -5vw;*/
+  height: 800px;
+}
+
+.sp-main-container {
+  margin-left: 4%;
+}
+
+.sp-tagline {
+  margin: 40px 0 10px 20px;
+  padding-top: 40px;
+  font-size: 35px;
+  color: #1D355E;
+}
+
 .sp-product-container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 90%;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 100%;
 }

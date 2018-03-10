@@ -1,0 +1,35 @@
+/*===========Tagline Styles===========*/
+
+.tagline {
+  background-color: #32ADE6;
+  margin: -5vw;
+  height: 250px;
+}
+
+.tagline-container {
+  margin: 5% 25%;
+  padding-top: 20px;
+}
+
+.tagline-text {
+  font-size: 35px;
+  color: #FFF;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tag-button-wrapper {
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+
+.tagline-button {
+  border: none;
+  border-radius: 2px;
+  padding: 0 5%;
+  font-size: 18px;
+  height: 40px;
+  cursor: pointer;
+  color: #1D58BC;
+  background-color: #fff;
+}

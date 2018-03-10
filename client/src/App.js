@@ -9,6 +9,8 @@ import Tagline from './components/Tagline';
 import Footer from './components/Footer';
 import Legal from './components/Legal';
 
+import style from './styles/app.css';
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -31,7 +33,6 @@ export default class App extends Component {
         <SubProducts products={this.state.products}/>
         <Tagline />
         <Footer />
-        <Legal />
       </div>
     );
   }

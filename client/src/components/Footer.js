@@ -3,7 +3,6 @@ import style from '../styles/footer.css';
 
 export default class Footer extends Component {
   render() {
-    const {sub, lead} = this.props;
     return (
       <div className='footer'>
         <div className='f-logo'>BUILDINGCONNECTED</div>

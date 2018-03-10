@@ -2,9 +2,10 @@
 
 .menu {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   height: 60px;
-  /*background-color: blue;*/
+  background-color: #FFF;
 }
 
 .logo {
@@ -14,14 +15,34 @@
 
 .menu-items {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   margin-right: 5%;
+  font-size: 18px;
 }
+
 
 .menu-item {
   display: flex;
+  color: #595959;
+  text-decoration: none;
+  margin-left: 30px;
+  cursor: pointer;
 }
+
+.login {
+  color: #32ADE6;
+} 
 
 .menu-button {
   display: flex;
+  color: #32ADE6;
+  background: transparent;
+  font-size: 18px;
+  height: 40px;
+  margin-left: 30px;
+  border: 1px solid #32ADE6;
+  border-radius: 2px;
+  padding: 5px 20px;
+  cursor: pointer;
 }

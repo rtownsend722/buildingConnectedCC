@@ -3,15 +3,39 @@
 .product {
   display: flex;
   flex-direction: column;
-  max-width: 25%;
-  margin: 1.5% 1.5%;
-  border: 1px solid black;
+  justify-content: space-around;
+  width: 25%;
+  min-height: 275px;
+  margin: 20px 0;
+  border: 0.5px solid #595959;
+  background: #FFF;
+}
+
+.product-icon {
+  display: flex;
+  margin: 0 1%;
 }
 
 .lead {
   display: flex;
+  margin: 0 4%;
+  margin-top: 1%;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .sub {
   display: flex;
+  margin: 4%;
+  font-size: 25px;
+}
+
+.see-how {
+  display: flex;
+  margin: 0 4%;
+  /*margin-bottom: 5px;*/
+  text-decoration: none;
+  font-size: 16px;
+  color: #32ADE6;
+  cursor: pointer;
 }
