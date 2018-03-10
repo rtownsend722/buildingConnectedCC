@@ -1,0 +1,7 @@
+/*=========Sub Products Styles=========*/
+
+.sp-product-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+}

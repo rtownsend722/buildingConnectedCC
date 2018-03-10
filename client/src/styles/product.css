@@ -1,0 +1,17 @@
+/*==============Product Styles==============*/
+
+.product {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  margin: 1.5% 1.5%;
+  border: 1px solid black;
+}
+
+.lead {
+  display: flex;
+}
+
+.sub {
+  display: flex;
+}

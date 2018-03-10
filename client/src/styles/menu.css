@@ -1,0 +1,27 @@
+/*=================Menu Styles=================*/
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  /*background-color: blue;*/
+}
+
+.logo {
+  display: flex;
+  margin-left: 5%;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-button {
+  display: flex;
+}

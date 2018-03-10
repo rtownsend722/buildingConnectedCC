@@ -1,0 +1,20 @@
+/*==========Legal Styles==========*/
+
+.legal-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.copyright {
+  display: flex;
+}
+
+.legal-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.legal-item {
+  display: flex;
+}

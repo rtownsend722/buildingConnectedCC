@@ -1,0 +1,36 @@
+/*============Footer Styles============*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-logo {
+  display: flex;
+}
+
+/*============Footer Menu============*/
+
+.f-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.f-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-product-connect {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-menu-item {
+  display: flex;
+}
+
+.f-menu-icon {
+  display: flex;
+}
+
