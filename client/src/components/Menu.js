@@ -7,7 +7,7 @@ export default class Menu extends Component {
     return (
       <div className='menu'>
         <div className='logo'>
-          <img src={logo} width='275' height='43' alt='BuildingConnected'/>
+          <img src={logo} width='275' height='43' alt='BuildingConnected' />
         </div>
         <div className='menu-items'>
           <a className='menu-item'>For GC's</a>

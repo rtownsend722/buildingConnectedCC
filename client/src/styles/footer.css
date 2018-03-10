@@ -1,22 +1,25 @@
 /*============Footer Styles============*/
 
+.f-container {
+  background-color: #FFF;
+  margin-top: -10px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
-  height: 450px;
-  /*margin-top: 100px;*/
-  background-color: #FFF;
+  margin: 0 4%;
+  padding: 20px 0 40px 0;
+  border-bottom: 3px solid #1d355e;
 }
 
 .f-logo {
-  margin-top: 100px;
   display: flex;
 }
 
 /*============Footer Menu============*/
 
 .f-menu {
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
 }
@@ -24,18 +27,29 @@
 .f-product {
   display: flex;
   flex-direction: column;
-}
-
-.f-product-connect {
-  display: flex;
-  flex-direction: column;
+  margin-left: 40px;
+  font-size: 15px;
+  color: #1D355E;
+  font-weight: 700;
 }
 
 .f-menu-item {
   display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #595959;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.f-icons-wrapper {
+  display: flex;
+  margin: 20px auto;
 }
 
 .f-menu-icon {
-  display: flex;
+  text-decoration: none;
+  margin-right: 10px;
 }
 

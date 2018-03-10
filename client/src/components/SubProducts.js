@@ -13,6 +13,7 @@ export default class SubProducts extends Component {
               this.props.products.map(prod => {
                 return <Product
                   key={prod.id}
+                  interactive={prod.interactive}
                   lead={prod.lead}
                   sub={prod.sub}
                 />

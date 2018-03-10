@@ -33,6 +33,7 @@ export default class App extends Component {
         <SubProducts products={this.state.products}/>
         <Tagline />
         <Footer />
+        <Legal />
       </div>
     );
   }

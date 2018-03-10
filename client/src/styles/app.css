@@ -1,5 +1,9 @@
 /*============Shared Styles============*/
 
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .container {
   background-color: #FAFAFA;
 }

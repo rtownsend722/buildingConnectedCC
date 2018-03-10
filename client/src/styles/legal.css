@@ -1,9 +1,18 @@
 /*==========Legal Styles==========*/
 
+.legal {
+  background-color: #FFF;
+  
+}
+
 .legal-container {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  margin: 0 4%;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .copyright {
@@ -17,4 +26,5 @@
 
 .legal-item {
   display: flex;
+  margin-left: 20px;
 }

@@ -9,11 +9,25 @@
   margin: 20px 0;
   border: 0.5px solid #595959;
   background: #FFF;
+  color: #1D355E;
+}
+
+.bar {
+  height: 8px;
+}
+
+.bar-hover {
+  margin-top: -3px;
+  background-color: #1D58BC;
 }
 
 .product-icon {
   display: flex;
-  margin: 0 1%;
+  margin: 10px 1% 0 1%;
+}
+
+.icon-space {
+  height: 38px;
 }
 
 .lead {
@@ -21,21 +35,26 @@
   margin: 0 4%;
   margin-top: 1%;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .sub {
   display: flex;
   margin: 4%;
   font-size: 25px;
+  font-weight: 300;
 }
 
 .see-how {
   display: flex;
   margin: 0 4%;
-  /*margin-bottom: 5px;*/
+  padding-bottom: 20px;
   text-decoration: none;
   font-size: 16px;
   color: #32ADE6;
   cursor: pointer;
+}
+
+.see-how-space {
+  padding-bottom: 20px;
 }

@@ -3,12 +3,12 @@
 .tagline {
   background-color: #32ADE6;
   margin: -5vw;
-  height: 250px;
+  /*height: 250px;*/
 }
 
 .tagline-container {
   margin: 5% 25%;
-  padding-top: 20px;
+  padding: 20px 0;
 }
 
 .tagline-text {
@@ -19,7 +19,7 @@
 }
 
 .tag-button-wrapper {
-  margin: 40px auto 0 auto;
+  margin: 40px auto 30px auto;
   text-align: center;
 }
 
