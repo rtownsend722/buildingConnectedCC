@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import reactDOM from 'react-dom';
 
 import Menu from './components/Menu';
 import MainProduct from './components/MainProduct';
@@ -19,6 +18,10 @@ export default class App extends Component {
     };
   }
 
+  handleClick() {
+    this.props.history.push('/temp');
+  };
+
   componentDidMount() {
     this.setState({
       products: window.productData
@@ -28,15 +31,13 @@ export default class App extends Component {
   render() {
     return (
       <div className='container'>
-        <Menu />
-        <MainProduct />
-        <SubProducts products={this.state.products}/>
-        <Tagline />
-        <Footer />
-        <Legal />
+        <Menu history={this.props.history} handleClick={this.handleClick}/>
+        <MainProduct history={this.props.history} handleClick={this.handleClick}/>
+        <SubProducts products={this.state.products} history={this.props.history} handleClick={this.handleClick}/>
+        <Tagline history={this.props.history} handleClick={this.handleClick}/>
+        <Footer history={this.props.history} handleClick={this.handleClick}/>
+        <Legal history={this.props.history} handleClick={this.handleClick}/>
       </div>
     );
   }
 }
-
-reactDOM.render(<App />, document.querySelector('#app'));

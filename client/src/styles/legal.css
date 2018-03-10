@@ -27,4 +27,5 @@
 .legal-item {
   display: flex;
   margin-left: 20px;
+  cursor: pointer;
 }

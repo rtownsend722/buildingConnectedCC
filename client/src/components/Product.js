@@ -9,6 +9,7 @@ export default class Product extends Component {
       hover: false
     };
 
+    this.handleClick = this.props.handleClick.bind(this);
     this.handleEnter = this.handleEnter.bind(this);
     this.handleLeave = this.handleLeave.bind(this);
   };
@@ -40,7 +41,7 @@ export default class Product extends Component {
         </div>
         <div className='lead'>{lead}</div>
         <div className='sub'>{sub}</div>
-        <a className='see-how'>See how >></a>
+        <a className='see-how' onClick={this.handleClick} >See how >></a>
       </div>
     ) :
     (

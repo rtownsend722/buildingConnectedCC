@@ -6,6 +6,11 @@ import linkedIn from '../assets/linkedIn-icon.png';
 import twitter from '../assets/twitter-icon.png';
 
 export default class Footer extends Component {
+  constructor(props) {
+    super(props);
+
+    this.handleClick = this.props.handleClick.bind(this); 
+  }
   render() {
     return (
       <div className='f-container'>
@@ -13,30 +18,35 @@ export default class Footer extends Component {
           <div className='f-logo'>
             <img src={logo} width='200' height='31' alt='BuildingConnected' />
           </div>
+
           <div className='f-menu'>
             <div className='f-product'>OUR PRODUCT
-              <a className='f-menu-item'>For GC's</a>
-              <a className='f-menu-item'>For Subs</a>
-              <a className='f-menu-item'>For Owners</a>
-              <a className='f-menu-item'>Videos</a>
+              <a className='f-menu-item' onClick={this.handleClick} >For GC's</a>
+              <a className='f-menu-item' onClick={this.handleClick} >For Subs</a>
+              <a className='f-menu-item' onClick={this.handleClick} >For Owners</a>
+              <a className='f-menu-item' onClick={this.handleClick} >Videos</a>
             </div>
+
             <div className='f-product'>COMPANY
-              <a className='f-menu-item'>About</a>
-              <a className='f-menu-item'>Careers</a>
-              <a className='f-menu-item'>Blog</a>
-              <a className='f-menu-item'>Events</a>
+              <a className='f-menu-item' onClick={this.handleClick} >About</a>
+              <a className='f-menu-item' onClick={this.handleClick} >Careers</a>
+              <a className='f-menu-item' onClick={this.handleClick} >Blog</a>
+              <a className='f-menu-item' onClick={this.handleClick} >Events</a>
             </div>
+
             <div className='f-product'>GET IN TOUCH
-              <a className='f-menu-item'>Help Center</a>
-              <a className='f-menu-item'>Contact Support</a>
-              <a className='f-menu-item'>Request a Demo</a>
+              <a className='f-menu-item' onClick={this.handleClick} >Help Center</a>
+              <a className='f-menu-item' onClick={this.handleClick} >Contact Support</a>
+              <a className='f-menu-item' onClick={this.handleClick} >Request a Demo</a>
             </div>
+
             <div className='f-product'>CONNECT
               <div className='f-icons-wrapper'>
-                <a className='f-menu-icon'><img src={facebook} width='30' height='30' alt='facebook'></img></a>
-                <a className='f-menu-icon'><img src={linkedIn} width='30' height='30' alt='linkedin'></img></a>
-                <a className='f-menu-icon'><img src={twitter} width='30' height='30' alt='twitter'></img></a>
+                <a className='f-menu-icon' onClick={this.handleClick} ><img src={facebook} width='30' height='30' alt='facebook'></img></a>
+                <a className='f-menu-icon' onClick={this.handleClick} ><img src={linkedIn} width='30' height='30' alt='linkedin'></img></a>
+                <a className='f-menu-icon' onClick={this.handleClick} ><img src={twitter} width='30' height='30' alt='twitter'></img></a>
               </div>
+
             </div>
           </div>
         </div>

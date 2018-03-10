@@ -51,5 +51,6 @@
 .f-menu-icon {
   text-decoration: none;
   margin-right: 10px;
+  cursor: pointer;
 }
 
