@@ -31,3 +31,19 @@
   color: #1D58BC;
   background-color: #fff;
 }
+
+/*=============Media Queries=============*/
+
+@media screen and (max-width: 1000px ){
+  .mp-button {
+    color: #32ADE6;
+    border-radius: 5px;
+    font-size: 25px;
+    height: 60px;
+    margin-left: 30px;
+  }
+
+  .mp-container {
+    margin-right: 5%;
+  }
+}

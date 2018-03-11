@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import style from '../styles/product.css';
 import icon from '../assets/prod-icon.png';
+import bigIcon from '../assets/prod-icon-big.png';
 
 export default class Product extends Component {
   constructor(props) {
@@ -38,6 +39,9 @@ export default class Product extends Component {
         <div className={`bar bar-${hover}`}></div>
         <div className='product-icon'>
           <img src={icon} alt='star' />
+        </div>
+        <div className='big-product-icon'>
+          <img src={bigIcon} alt='star' />
         </div>
         <div className='lead'>{lead}</div>
         <div className='sub'>{sub}</div>

@@ -7,3 +7,20 @@
 .container {
   background-color: #FAFAFA;
 }
+
+/*===============Media Queries===============*/
+
+/*Display Main Menu on Screens >= 1000px*/
+@media screen and (max-width: 1000px ){
+  .menu-main {
+    display: none !important;
+    background-color: red;
+  }
+}
+
+/*Display Mobile Menu on Screens < 1000px*/
+@media only screen and (min-width: 1000px){
+  .menu-mobile {
+    display: none;
+  }
+}

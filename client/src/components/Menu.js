@@ -11,7 +11,7 @@ export default class Menu extends Component {
 
   render() {
     return (
-      <div className='menu'>
+      <div className='menu-main'>
         <div className='logo'>
           <img src={logo} width='275' height='43' alt='BuildingConnected' />
         </div>

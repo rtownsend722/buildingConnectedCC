@@ -29,3 +29,32 @@
   margin-left: 20px;
   cursor: pointer;
 }
+
+/*=============Media Queries=============*/
+
+@media screen and (min-width: 1000px) {
+  .legal-menu-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px ){
+  .legal {
+    background-color: #FAFAFA;
+  }
+
+  .legal-container {
+    font-size: 25px;
+    color: #595959;
+    margin-top: 10px;
+  }
+
+  .legal-menu-mobile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .legal-menu {
+    display: none;
+  }
+}

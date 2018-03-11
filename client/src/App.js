@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import Menu from './components/Menu';
+import MenuMobile from './components/MenuMobile';
 import MainProduct from './components/MainProduct';
 import SubProducts from './components/SubProducts';
 import Product from './components/Product';
@@ -31,7 +32,8 @@ export default class App extends Component {
   render() {
     return (
       <div className='container'>
-        <Menu history={this.props.history} handleClick={this.handleClick}/>
+        <Menu className='menu-main' history={this.props.history} handleClick={this.handleClick}/>
+        <MenuMobile className='menu-mobile' history={this.props.history} handleClick={this.handleClick} />
         <MainProduct history={this.props.history} handleClick={this.handleClick}/>
         <SubProducts products={this.state.products} history={this.props.history} handleClick={this.handleClick}/>
         <Tagline history={this.props.history} handleClick={this.handleClick}/>

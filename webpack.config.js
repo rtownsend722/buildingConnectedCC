@@ -5,7 +5,7 @@ const DIST_DIR = path.join(__dirname, '/client/dist');
 module.exports = {
   context: path.join(__dirname, '/client/src'),
 
-  entry: `${SRC_DIR}/app.js`,
+  entry: `${SRC_DIR}/index.js`,
 
   output: {
     filename: 'bundle.js',

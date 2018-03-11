@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import style from '../styles/temp.css';
-import cat from '../assets/hacker-cat.jpg'
 
 export default class Temp extends Component {
   render() {

@@ -1,0 +1,44 @@
+/*============Mobile Menu Styles============*/
+
+.menu-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  background-color: #FFF;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.logo-mobile {
+  display: flex;
+  margin-left: 5%;
+}
+
+.menu-icon {
+  display: flex;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.full-menu-closed {
+  display: none !important;
+}
+
+.full-menu-open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF;
+}
+
+.fm-item {
+  display: flex;
+  margin: 20px 0;
+  color: #595959;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login {
+  color: #32ADE6;
+}

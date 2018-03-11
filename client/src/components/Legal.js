@@ -12,10 +12,16 @@ export default class Legal extends Component {
       <div className='legal'>
         <div className='legal-container'>
           <div className='copyright'>©BuildingConnected 2017</div>
+          
           <div className='legal-menu'>
             <div className='legal-item' onClick={this.handleClick} >Terms of Service</div>
             <div className='legal-item' onClick={this.handleClick} >Privacy Policy</div>
             <div className='legal-item' onClick={this.handleClick} >support@buildingconnected.com</div>
+          </div>
+
+          <div className='legal-menu-mobile'>
+            <div className='legal-item' onClick={this.handleClick} >Terms</div>
+            <div className='legal-item' onClick={this.handleClick} >Privacy</div>
           </div>
         </div>
       </div>

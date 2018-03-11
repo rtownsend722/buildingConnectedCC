@@ -58,3 +58,59 @@
 .see-how-space {
   padding-bottom: 20px;
 }
+
+/*==============Media Queries==============*/
+
+@media screen and (min-width: 1000px) {
+  .big-product-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px ){
+
+  .bar {
+    height: 25px;
+  }
+
+  .bar-hover {
+    margin-top: -10px;
+  }
+
+  .product {
+    width: 500px;
+    min-height: 500px;
+  }
+
+  .big-product-icon {
+    display: flex;
+    margin: 0 10px;
+  }
+
+  .product-icon {
+    display: none;
+  }
+
+  .icon-space {
+    height: 38px;
+  }
+
+  .lead {
+    padding: 0 10px;
+    font-size: 48px;
+    margin: 2%;
+  }
+
+  .sub {
+    padding: 0 10px;
+    font-size: 45px;
+    margin: -2% 2%;
+    padding-bottom: 40px;
+  }
+
+  .see-how {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+
+}
